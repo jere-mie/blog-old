@@ -6,7 +6,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Welcome!
 ---
 
 Welcome to my blog! Check out my posts below :)
