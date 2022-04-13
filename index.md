@@ -7,3 +7,7 @@
 #
 layout: home
 ---
+
+# Welcome!
+
+Welcome to my blog! Check out my posts below :)
