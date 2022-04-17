@@ -3,8 +3,8 @@ author:
   name: Jeremie Bornais
   email: jeremie@bornais.ca
 description: > # this means to ignore newlines until "show_excerpts:"
-  This is my blog! This is where I'll write about things I find interesting, or
-  give helpful tutorials I'll use for my own reference or for others' benefit.
+  Welcome to my blog! Here, I'll write about things I find interesting, or
+  give tutorials that hopefully someone will find useful :)
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
