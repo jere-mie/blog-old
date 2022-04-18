@@ -5,6 +5,8 @@ author:
 - Jeremie Bornais
 ---
 
+(note: this article is meant for UWindsor students. If you aren't a UWindsor student you may want to skip this one)
+
 Just want the instructions? Head over to the [instructions section](#ratification-instructions).
 
 ## Why You Should Become a UWSA Ratified Club
