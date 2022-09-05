@@ -13,3 +13,13 @@ tets 3
 
 \\( \frac{2}{4} \\)
 
+$$ a \over b $$
+$$a \over b$$
+
+$$$a \over b$$$
+
+$$$ a \over b $$$
+
+$$$
+a \over b
+$$$
