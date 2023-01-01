@@ -41,7 +41,7 @@ cd xv6-public
 make qemu-nox
 ```
 
-Congratulations! You've now installed and run XV6. You can play around and try out the different commands. When you want to exit XV6, just type `ctrl-x a` in the terminal and you should be brought back to your original shell.
+Congratulations! You've now installed and run XV6. You can play around and try out the different commands. When you want to exit XV6, just type `ctrl-a x` in the terminal and you should be brought back to your original shell.
 
 Pro tip: run `make clean` to clean up and remove all of the compiled files if you're actively working on something. It will make the directory a little cleaner and easier to find what you're looking for.
 
@@ -126,4 +126,4 @@ You can now save and close the Makefile, and the next time you run XV6, you shou
 
 ## How to Exit XV6
 
-Like I mentioned in the introduction, this is a very simple thing to do but if often left out of tutorials for some reason. It's as easy as typing `ctrl-x a` in the terminal 😎.
+Like I mentioned in the introduction, this is a very simple thing to do but if often left out of tutorials for some reason. It's as easy as typing `ctrl-a x` in the terminal 😎.
