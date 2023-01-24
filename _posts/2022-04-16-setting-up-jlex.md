@@ -21,12 +21,12 @@ Make sure you download the following two files:
 1. [Main.java](http://jlu.myweb.cs.uwindsor.ca/214/Main.java)
 2. [simple.lex](http://jlu.myweb.cs.uwindsor.ca/214/simple.lex)
 
-You can download files on the CS servers by running `wget url`, where `url` is replaced with the url of the file you want to download.  
+You can download files on the CS servers by running `curl url -o filename`, where `url` is replaced with the url of the file you want to download, and `filename` is the filename of the file you're downloading.  
 So, to download these two files, you can run:
 
 ```bash
-wget http://jlu.myweb.cs.uwindsor.ca/214/Main.java
-wget http://jlu.myweb.cs.uwindsor.ca/214/simple.lex
+curl http://jlu.myweb.cs.uwindsor.ca/214/Main.java -o Main.java
+curl http://jlu.myweb.cs.uwindsor.ca/214/simple.lex -o simple.lex
 ```
 
 ## Instructions
@@ -94,8 +94,8 @@ Now try typing stuff on your keyboard and see how the lexer responds. Try typing
 mkdir -p 2140
 cd 2140
 
-wget http://jlu.myweb.cs.uwindsor.ca/214/Main.java
-wget http://jlu.myweb.cs.uwindsor.ca/214/simple.lex
+curl http://jlu.myweb.cs.uwindsor.ca/214/Main.java -o Main.java
+curl http://jlu.myweb.cs.uwindsor.ca/214/simple.lex -o simple.lex
 
 mkdir -p JLex
 mv Main.java JLex
