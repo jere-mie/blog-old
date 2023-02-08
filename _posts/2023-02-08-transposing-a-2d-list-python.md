@@ -42,4 +42,4 @@ def transpose(inputdata):
     return [list(i) for i in zip(*inputdata)]
 ```
 
-Then you can simply call `transpose(data)`.
+Then you can simply call `transpose(data)` and it will return a new list with the data transposed. To overwrite the `data` variable, simply assign it the value, by calling `data = transpose(data)`

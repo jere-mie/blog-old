@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instructions to Install Java Cup on the CS Servers
+title: Instructions to Install Java Cup on Linux
 author:
 - Jeremie Bornais
 ---
@@ -11,6 +11,10 @@ Or, run this one command to do everything:
 ```bash
 curl -o- https://blog.bornais.ca/assets/scripts/javacup-install.sh | bash
 ```
+
+## Prerequesite Software
+
+These instructions are for Linux machines. If you're a Windows user, I recommend using the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). The only prerequesite software required is Java. If you're on a Debian-based system and don't have Java installed, you can install it via `sudo apt install default-jre` and `sudo apt install default-jdk`.
 
 ## Detailed instructions
 

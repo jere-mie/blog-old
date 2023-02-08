@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Instructions to Install JLex on the CS Servers
+title: Instructions to Install JLex on Linux
 author:
 - Jeremie Bornais
 ---
@@ -8,6 +8,12 @@ author:
 Want all the instructions in one code block without the explanations? Check out the [appendix](#appendix).
 
 ## Before Starting
+
+### Prerequesite Software
+
+These instructions are for Linux machines. If you're a Windows user, I recommend using the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). The only prerequesite software required is Java. If you're on a Debian-based system and don't have Java installed, you can install it via `sudo apt install default-jre` and `sudo apt install default-jdk`.
+
+### Organization 
 
 You may want to create a separate "2140" directory for this class:
 
