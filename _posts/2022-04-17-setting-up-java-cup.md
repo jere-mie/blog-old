@@ -30,7 +30,7 @@ cd 2140-javacup
 ```bash
 mkdir -p JLex
 cd JLex
-curl http://jlu.myweb.cs.uwindsor.ca/214/Main.java -o Main.java
+curl https://blog.bornais.ca/assets/2140/lex/Main.java -o Main.java
 javac Main.java
 cd ..
 ```
@@ -38,7 +38,7 @@ cd ..
 ### Install JavaCup
 
 ```bash
-curl https://jlu.myweb.cs.uwindsor.ca/214/javaCup.tar -o javaCup.tar
+curl https://blog.bornais.ca/assets/2140/cup/javaCup.tar -o javaCup.tar
 tar -xvf *.tar
 rm *.tar
 ```
@@ -46,10 +46,10 @@ rm *.tar
 ### Download all of the calc files
 
 ```bash
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.lex -o calc.lex
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.cup -o calc.cup
-curl https://jlu.myweb.cs.uwindsor.ca/214/CalcParserUser.java -o CalcParserUser.java
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.input -o calc.input
+curl https://blog.bornais.ca/assets/2140/cup/calc.lex -o calc.lex
+curl https://blog.bornais.ca/assets/2140/cup/calc.cup -o calc.cup
+curl https://blog.bornais.ca/assets/2140/cup/CalcParserUser.java -o CalcParserUser.java
+curl https://blog.bornais.ca/assets/2140/cup/calc.input -o calc.input
 ```
 
 ### Run it
@@ -101,18 +101,18 @@ cd 2140-javacup
 mkdir -p JLex
 cd JLex
 
-curl http://jlu.myweb.cs.uwindsor.ca/214/Main.java -o Main.java
+curl https://blog.bornais.ca/assets/2140/lex/Main.java -o Main.java
 javac Main.java
 cd ..
 
-curl https://jlu.myweb.cs.uwindsor.ca/214/javaCup.tar -o javaCup.tar
+curl https://blog.bornais.ca/assets/2140/cup/javaCup.tar -o javaCup.tar
 tar -xvf *.tar
 rm *.tar
 
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.lex -o calc.lex
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.cup -o calc.cup
-curl https://jlu.myweb.cs.uwindsor.ca/214/CalcParserUser.java -o CalcParserUser.java
-curl https://jlu.myweb.cs.uwindsor.ca/214/calc.input -o calc.input
+curl https://blog.bornais.ca/assets/2140/cup/calc.lex -o calc.lex
+curl https://blog.bornais.ca/assets/2140/cup/calc.cup -o calc.cup
+curl https://blog.bornais.ca/assets/2140/cup/CalcParserUser.java -o CalcParserUser.java
+curl https://blog.bornais.ca/assets/2140/cup/calc.input -o calc.input
 
 java JLex.Main calc.lex
 java java_cup.Main -parser CalcParser -symbols CalcSymbol calc.cup
