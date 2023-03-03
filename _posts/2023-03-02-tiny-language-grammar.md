@@ -61,12 +61,12 @@ FormalParam -> Type Id
 Block -> BEGIN Statement+ END
 
 Statement -> Block
-           | LocalVarDecl  
-           | AssignStmt   
-           | ReturnStmt
-           | IfStmt
-    	   | WriteStmt
-	       | ReadStmt
+          | LocalVarDecl  
+          | AssignStmt   
+          | ReturnStmt
+          | IfStmt
+          | WriteStmt
+          | ReadStmt
         
 LocalVarDecl -> Type Id ';' | Type AssignStmt  
 
